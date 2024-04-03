@@ -75,10 +75,45 @@ display: flex;
 justify-content: flex-start;
 }
 .button button {
-    background-color: rgb(0, 68, 255);
+    background-color: #3882f6;
     color: white;
     font-weight: 600;
     border: none;
     padding: 5px 20px;
     border-radius: 4px;
 }
+
+
+.second-container {
+    padding: 0 10%;
+}
+
+.second-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: 300;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.images img {
+    width: 200px;
+    border-radius: 10px;
+}
+
