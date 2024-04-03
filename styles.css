@@ -85,7 +85,7 @@ justify-content: flex-start;
 
 
 .second-container {
-    padding: 0 10%;
+    padding: 0 10% 5% 10%;
 }
 
 .second-header {
@@ -117,3 +117,20 @@ justify-content: flex-start;
     border-radius: 10px;
 }
 
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 10% 25%;
+}
+.p1 {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f2937;
+    align-self: flex-start;
+}
+.p2 {
+    align-self: flex-end;
+    font-weight: 700;
+}
