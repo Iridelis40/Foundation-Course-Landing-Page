@@ -134,3 +134,26 @@ justify-content: flex-start;
     align-self: flex-end;
     font-weight: 700;
 }
+
+.fourth-container {
+padding: 30px;
+}
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+.call-button button {
+    background-color: #3882f6;
+    color: white;
+    border: solid;   
+    border-width: 2px;
+    border-radius: 3px; 
+    padding: 8px 15px;
+}
